@@ -14,11 +14,10 @@ instructions:
 rails:
   input:
     flows:
-      - check jailbreak
-      - check off topic
-      - check pii request
+      - self check input
   output:
     flows:
-      - check sensitive output
+      - self check output
 
-# Colang dialogue flows are defined in rails.co
+# Prompt cho self check input/output nằm trong prompts.yml
+# Colang dialogue flows (bot refuse messages) nằm trong rails.co

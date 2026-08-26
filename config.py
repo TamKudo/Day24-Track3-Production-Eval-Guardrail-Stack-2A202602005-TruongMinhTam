@@ -8,6 +8,7 @@ load_dotenv()
 # --- API Keys ---
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 HF_TOKEN = os.getenv("HF_TOKEN", "")  # Optional: for HuggingFace models
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 
 # --- Qdrant (same as Day 18) ---
 QDRANT_HOST = "localhost"
