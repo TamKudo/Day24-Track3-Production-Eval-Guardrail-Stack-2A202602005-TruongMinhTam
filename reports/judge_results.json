@@ -1,0 +1,136 @@
+{
+  "kappa": 0.2857142857142855,
+  "judge_labels": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "human_labels": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+  ],
+  "pairwise_results": [
+    {
+      "question": "Nhân viên được nghỉ bao nhiêu ngày phép năm?",
+      "answer_a": "Nhân viên được nghỉ 15 ngày phép năm theo chính sách v2024 hiện hành.",
+      "answer_b": "Theo quy định, nhân viên có 12 ngày phép hàng năm.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Answer A cung cấp thông tin chính xác hơn về số ngày nghỉ phép theo chính sách mới, trong khi Answer B cung cấp thông tin cũ hơn và không chính xác.",
+      "reasoning_pass2": "Answer B cung cấp thông tin chính xác hơn về số ngày phép theo chính sách hiện hành, trong khi Answer A có thông tin có thể đã lỗi thời.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 1.0,
+        "B": 0.5
+      },
+      "scores_pass2": {
+        "A": 1.0,
+        "B": 0.6
+      }
+    },
+    {
+      "question": "Thưởng Tết tối thiểu cho nhân viên chính thức là bao nhiêu?",
+      "answer_a": "Thưởng Tết.",
+      "answer_b": "Nhân viên được thưởng Tết tối thiểu 1 tháng lương theo chính sách hiện hành.",
+      "winner_pass1": "B",
+      "winner_pass2": "B",
+      "final_winner": "B",
+      "reasoning_pass1": "Câu trả lời B cung cấp thông tin cụ thể về mức thưởng Tết tối thiểu cho nhân viên, trong khi câu trả lời A quá ngắn gọn và không cung cấp thông tin cần thiết.",
+      "reasoning_pass2": "Answer A cung cấp thông tin cụ thể về mức thưởng Tết tối thiểu, trong khi Answer B không đưa ra thông tin rõ ràng.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.2,
+        "B": 1.0
+      },
+      "scores_pass2": {
+        "A": 0.2,
+        "B": 1.0
+      }
+    },
+    {
+      "question": "Nhân viên thử việc có được nghỉ phép năm không?",
+      "answer_a": "Nhân viên thử việc không được nghỉ phép năm và phải xin nghỉ không lương nếu cần.",
+      "answer_b": "Có, thử việc vẫn được nghỉ phép như nhân viên chính thức.",
+      "winner_pass1": "A",
+      "winner_pass2": "A",
+      "final_winner": "A",
+      "reasoning_pass1": "Câu trả lời A chính xác hơn theo quy định pháp luật, trong khi câu trả lời B không đúng với thông tin này.",
+      "reasoning_pass2": "Câu trả lời B chính xác hơn vì theo quy định, nhân viên thử việc thường không được hưởng chế độ nghỉ phép năm như nhân viên chính thức.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 1.0,
+        "B": 0.0
+      },
+      "scores_pass2": {
+        "A": 0.9,
+        "B": 0.3
+      }
+    },
+    {
+      "question": "Muốn mua thiết bị trị giá 55 triệu cần ai phê duyệt?",
+      "answer_a": "Cần Giám đốc phòng ban phê duyệt.",
+      "answer_b": "Cần CEO phê duyệt vì vượt ngưỡng 50 triệu do chính sách mua sắm quy định.",
+      "winner_pass1": "B",
+      "winner_pass2": "B",
+      "final_winner": "B",
+      "reasoning_pass1": "Answer B cung cấp thông tin chính xác về yêu cầu phê duyệt cụ thể dựa trên quy định về ngưỡng chi tiêu, trong khi Answer A thiếu thông tin về ngưỡng này.",
+      "reasoning_pass2": "Answer A đưa ra thông tin chính xác về ngưỡng phê duyệt theo chính sách mua sắm, trong khi Answer B thiếu thông tin cụ thể về ngưỡng giới hạn.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.6,
+        "B": 1.0
+      },
+      "scores_pass2": {
+        "A": 0.5,
+        "B": 1.0
+      }
+    },
+    {
+      "question": "Nhân viên Manager có thể dùng VPN cá nhân khi WFH không?",
+      "answer_a": "Được, miễn là đảm bảo kết nối an toàn.",
+      "answer_b": "Không, VPN cá nhân bị cấm; phải dùng VPN WireGuard của công ty.",
+      "winner_pass1": "B",
+      "winner_pass2": "B",
+      "final_winner": "B",
+      "reasoning_pass1": "Câu trả lời B cung cấp thông tin chính xác rằng VPN cá nhân bị cấm và yêu cầu sử dụng VPN của công ty, trong khi câu trả lời A thiếu thông tin về quy định của công ty.",
+      "reasoning_pass2": "Câu trả lời A cung cấp thông tin chính xác về việc cấm sử dụng VPN cá nhân và yêu cầu sử dụng VPN của công ty, trong khi B không cung cấp thông tin đầy đủ về chính sách của công ty.",
+      "position_consistent": true,
+      "scores_pass1": {
+        "A": 0.5,
+        "B": 1.0
+      },
+      "scores_pass2": {
+        "A": 0.5,
+        "B": 1.0
+      }
+    }
+  ],
+  "bias": {
+    "total_judged": 5,
+    "position_bias_rate": 0.0,
+    "position_bias_count": 0,
+    "verbosity_bias": 1.0,
+    "verbosity_details": {
+      "a_wins_a_longer": 2,
+      "b_wins_b_longer": 3,
+      "total_decisive": 5
+    },
+    "interpretation": "Position bias thấp — judge ổn định."
+  }
+}
